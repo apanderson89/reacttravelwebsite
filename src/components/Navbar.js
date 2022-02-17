@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-import { Link } from 'react-router-dom'
+import React, {useState} from 'react';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
@@ -7,12 +7,12 @@ function Navbar() {
        <nav className='navbar'>
            <div className='navbar-container'>
                <Link to='/' className="navbar-logo">
-                   TRVL
+                   TRVL <i className='fab fa-typo3' /> 
                </Link>
            </div>
        </nav>
        </>
-    )
+    );
 }
 
 export default Navbar
